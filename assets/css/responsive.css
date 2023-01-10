@@ -1,0 +1,73 @@
+/* Ipad Pro */
+@media (max-width: 1024px) {
+    .navbar__logo-tablet {
+        display: block;
+    }
+     
+    .navbar__logo-pc {
+        display: none;
+    }
+
+    .navbar__user-link,
+    .navbar__item-link {
+        padding: 10px;
+        font-size: 1.4rem; 
+    }
+
+    .navbar__slider {   
+        margin: 0;  
+    } 
+
+    .slider {
+        padding-bottom: 0;
+    }
+
+    .slider__img { 
+        padding-top: 50%;
+        padding-bottom: 64px;   
+        border-radius: 0;
+    }
+
+    .slider__text {
+        bottom: 24%;
+    }
+    
+    .slider__header {
+        width: 400px;
+        font-size: 3rem;
+        line-height: 3.4rem;
+    }
+
+    .slider__btn {
+        bottom: 12%;
+    }
+
+    .body__title {
+        font-size: 1.4rem;
+    }
+
+    .body__location-header {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        margin-bottom: 10px;  
+    }
+
+    .body__location-distance {
+        font-size: 1.6rem;
+    }
+
+    .discover__text {
+        top: 30px;
+        left: 25px;
+    }
+
+    .discover__header {
+        font-size: 3.4rem;
+        line-height: 3.6rem;
+    }
+
+    .opinion__text-header {
+        font-size: 4.9rem;
+        line-height: 5.2rem;
+    }
+}
